@@ -1,0 +1,91 @@
+.html, body{
+display: flex;
+flex-direction: column;
+margin: 0;
+padding: 0;
+justify-content: center;
+align-items:center;
+text-align: center;
+height: 100vh;
+}
+
+#player1-score, #player2-score{
+font-size: 32px;
+font-weight: 800;
+}
+#dicePlayer1:hover{
+transform: scale(1.1);
+transition-duration: 0.2s; 
+}
+#dicePlayer2:hover{
+transform: scale(1.1);
+transition-duration: 0.2s; 
+}
+.game-container {
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+justify-content: center;
+}
+.diceArea{
+margin:15px;
+}
+
+#playAgain{
+display: none;  
+}
+
+.buttons{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.buttons button{
+margin: 10px;
+width: auto;
+height: auto;
+font-size: 23px;
+border-radius: 6px;
+border-style: solid;
+}
+
+.buttons button:hover{
+transform: scale(1.2);
+transition-duration: 0.2s; 
+box-shadow: 1px 1px 15px 5px rgba(0,0,0,0.37);
+}
+
+#mainMenu a{
+text-decoration: underline;
+color: rgb(255, 0, 0);
+}
+
+#mainMenu h1:hover{
+transform: scale(1.1);
+transition-duration: 0.2s; 
+}
+    
+.mainMenuContainer{
+display: flex;
+margin: auto;
+flex-direction: column;
+margin-top: 30vh;
+}
+#one-player h1:hover, #two-player h1:hover{
+transform: scale(1.1);
+transition-duration: 0.2s;     
+}
+
+#one-player a, #two-player a{
+text-decoration: underline;
+color: rgb(255, 0, 0);
+}
+
+#gamemode h1{
+font-size: 33px;
+}
+#gamemode h2{
+font-size: 24px;
+}
